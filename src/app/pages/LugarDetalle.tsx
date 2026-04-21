@@ -26,7 +26,7 @@ export function LugarDetalle() {
       </div>
 
       {/* Video principal */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 pb-4 md:pb-12">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 pb-4 md:pb-4">
         <div className="w-full h-[400px] md:h-[600px] bg-neutral-100 rounded-3xl flex items-center justify-center">
           <span className="text-neutral-500 font-medium text-lg">Video Principal</span>
         </div>
@@ -52,7 +52,7 @@ export function LugarDetalle() {
       </section>
 
       {/* Content */}
-      <section className="max-w-7xl mx-auto px-4 md:px-6 pb-0 md:pb-12">
+      <section className="max-w-7xl mx-auto px-4 md:px-6 pb-0 md:pb-0">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-12">
           {/* Main info */}
           <div className="lg:col-span-2 space-y-8">
