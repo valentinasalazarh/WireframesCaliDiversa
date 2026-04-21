@@ -25,6 +25,28 @@ export function LugarDetalle() {
         </div>
       </div>
 
+{/* Video principal */}
+<section className="max-w-7xl mx-auto px-4 md:px-6 pb-8 md:pb-12">
+  <div className="w-full h-[400px] md:h-[600px] bg-neutral-100 rounded-3xl flex items-center justify-center">
+    <span className="text-neutral-500 font-medium text-lg">Video</span>
+  </div>
+</section>
+
+{/* Video 360 */}
+<section className="max-w-7xl mx-auto px-4 md:px-6 mt-8">
+  <div className="w-full h-[400px] bg-neutral-100 rounded-3xl flex items-center justify-center">
+    <span className="text-neutral-500 font-medium text-lg">Video 360</span>
+  </div>
+</section>
+
+<div className="w-full h-[200px] bg-neutral-100 rounded-2xl mt-4 flex items-center justify-center">
+  <span className="text-neutral-500 text-sm">Imagen</span>
+</div>
+
+<button className="w-full mt-3 px-4 py-2 border border-neutral-300 rounded-xl text-sm text-neutral-600">
+  Ver más galería
+</button>
+
       {/* Gallery */}
       <section className="max-w-7xl mx-auto px-4 md:px-6 pb-8 md:pb-12">
         <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-3 md:gap-4 h-[400px] md:h-[600px]">
