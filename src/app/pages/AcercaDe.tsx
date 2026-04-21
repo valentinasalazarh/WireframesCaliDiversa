@@ -99,7 +99,6 @@ export function AcercaDe() {
       {/* Manifiesto de marca */}
       <section className="bg-neutral-900 text-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 md:px-6 text-center">
-          <h2 className="text-2xl md:text-4xl font-medium mb-8">Manifiesto de marca</h2>
 
           <div className="text-base md:text-lg leading-relaxed mb-12 space-y-4">
             <p>
