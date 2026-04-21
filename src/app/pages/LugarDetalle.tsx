@@ -145,7 +145,7 @@ export function LugarDetalle() {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Info card */}
-            <div className="bg-neutral-50 rounded-3xl p-6 sticky top-24">
+            <div className="bg-neutral-50 rounded-3xl p-6">
               <h3 className="text-lg font-medium mb-6">Información práctica</h3>
 
               <div className="space-y-4">
@@ -191,7 +191,13 @@ export function LugarDetalle() {
   Ver más galería
 </button>
 
-
+          {/* Map */}
+            <div className="bg-neutral-100 rounded-3xl aspect-square relative overflow-hidden hidden lg:block">
+              <div className="absolute inset-0 flex items-center justify-center">
+                <MapPin size={32} className="text-neutral-400" />
+              </div>
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-neutral-900 rounded-full"></div>
+            </div>
 
             {/* Share */}
             <div className="bg-neutral-50 rounded-3xl p-6 hidden lg:block">
