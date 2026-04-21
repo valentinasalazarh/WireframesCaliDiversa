@@ -172,9 +172,7 @@ export function LugarDetalle() {
                 <button className="w-full px-6 py-3 bg-neutral-900 text-white rounded-full hover:bg-neutral-800 transition-colors">
                   Ver en Google Maps
                 </button>
-                <button className="w-full px-6 py-3 bg-white border-2 border-neutral-200 rounded-full hover:border-neutral-300 transition-colors">
-                  Agregar a mi ruta
-                </button>
+                
               </div>
             </div>
 
