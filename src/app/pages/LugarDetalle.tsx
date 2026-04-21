@@ -25,25 +25,29 @@ export function LugarDetalle() {
         </div>
       </div>
 
-{/* Video principal */}
-<section className="max-w-7xl mx-auto px-4 md:px-6 pb-8 md:pb-12">
-  <div className="w-full h-[400px] md:h-[600px] bg-neutral-100 rounded-3xl flex items-center justify-center">
-    <span className="text-neutral-500 font-medium text-lg">Video Principal</span>
-  </div>
-</section>
+      {/* Video principal */}
+      <section className="max-w-7xl mx-auto px-4 md:px-6 pb-8 md:pb-12">
+        <div className="w-full h-[400px] md:h-[600px] bg-neutral-100 rounded-3xl flex items-center justify-center">
+          <span className="text-neutral-500 font-medium text-lg">Video Principal</span>
+        </div>
+      </section>
 
       {/* Gallery */}
       <section className="max-w-7xl mx-auto px-4 md:px-6 pb-8 md:pb-12">
-        <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-3 md:gap-4 h-[400px] md:h-[600px]">
-          <div className="col-span-2 row-span-2 bg-neutral-100 rounded-3xl"></div>
-          <div className="bg-neutral-100 rounded-2xl"></div>
-          <div className="bg-neutral-100 rounded-2xl"></div>
-          <div className="bg-neutral-100 rounded-2xl"></div>
-          <div className="bg-neutral-100 rounded-2xl relative">
-            <div className="absolute inset-0 flex items-center justify-center bg-neutral-900/50 rounded-2xl">
-              <span className="text-white font-medium text-sm">+ fotos</span>
-            </div>
+        <div className="grid grid-cols-3 gap-4 h-[300px] md:h-[400px]">
+          
+          <div className="bg-neutral-100 rounded-3xl flex items-center justify-center">
+            <span className="text-neutral-500 font-medium">Foto</span>
           </div>
+
+          <div className="bg-neutral-100 rounded-3xl flex items-center justify-center">
+            <span className="text-neutral-500 font-medium">Foto</span>
+          </div>
+
+          <div className="bg-neutral-100 rounded-3xl flex items-center justify-center">
+            <span className="text-neutral-500 font-medium">Foto</span>
+          </div>
+
         </div>
       </section>
 
@@ -183,20 +187,20 @@ export function LugarDetalle() {
               </div>
             </div>
 
-            <div className="w-full h-[200px] bg-neutral-100 rounded-2xl mt-4 flex items-center justify-center">
-  <span className="text-neutral-500 text-sm">Imagen</span>
-</div>
 
-<button className="w-full mt-3 px-4 py-2 border border-neutral-300 rounded-xl text-sm text-neutral-600">
-  Ver más galería
-</button>
-
-          {/* Map */}
+            {/* Map */}
             <div className="bg-neutral-100 rounded-3xl aspect-square relative overflow-hidden hidden lg:block">
               <div className="absolute inset-0 flex items-center justify-center">
                 <MapPin size={32} className="text-neutral-400" />
               </div>
+
+              {/* Punto negro */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-10 bg-neutral-900 rounded-full"></div>
+
+              {/* Texto debajo del punto */}
+              <p className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[30px] text-sm text-neutral-600">
+                Mapa
+              </p>
             </div>
 
             {/* Share */}
@@ -218,7 +222,7 @@ export function LugarDetalle() {
       </section>
 
       {/* Video 360 */}
-<section className="max-w-7xl mx-auto px-4 md:px-6 mt-8">
+<section className="max-w-7xl mx-auto px-4 md:px-6 mt-8 mb-12">
   <div className="w-full h-[400px] bg-neutral-100 rounded-3xl flex items-center justify-center">
     <span className="text-neutral-500 font-medium text-lg">Video 360</span>
   </div>
